@@ -4,7 +4,8 @@ name: 'My First Github Action'
 description: 'Does nothing useful'
 
 branding:
-  icon: chevron-left
+  icon: award
+
   color: purple
 
 runs:
