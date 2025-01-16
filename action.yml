@@ -1,0 +1,24 @@
+---
+
+name: 'My First Github Action'
+description: 'Does nothing useful'
+
+branding:
+  icon: chevron-left
+  color: purple
+
+runs:
+  using: composite
+  steps:
+    - run: whoami
+      shell: bash
+    - run: ls -alh
+      shell: bash
+    - run: df -h
+      shell: bash
+    - run: free -m
+      shell: bash
+    - run: uname -a
+      shell: bash
+    - run: ps -ef
+      shell: bash
