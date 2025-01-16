@@ -5,6 +5,7 @@ description: 'Does nothing useful'
 
 branding:
   icon: award
+
   color: purple
 
 runs:
